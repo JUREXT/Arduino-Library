@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements ArduinoListener {
 
     @Override
     public void onArduinoMessage(byte[] bytes) {
-        display("> "+new String(bytes));
+        display("> " + new String(bytes));
     }
 
     @Override
